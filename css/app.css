@@ -131,13 +131,15 @@ body {
         transform: translateY(1rem);
     }
 }
+@media screen and (max-width: 768px) {
+    iframe {
+        max-width: 93vw;
+    }
+}
+
 
 .animate-love {
     animation: love 5s ease-in-out infinite;
-}
-
-.dark-section {
-    /* background-color: #111111 !important; */
 }
 
 footer {
