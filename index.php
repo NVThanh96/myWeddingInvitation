@@ -75,13 +75,13 @@
 
 <body data-email="user@example.com" data-password="12345678" data-url="https://api.ulems.my.id/" style="overflow-y: hidden;">
 
-    <?php include('./template/navbottom.php')?>
+    <?php require_once('./template/navbottom.php')?>
     <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1440 165" style="transform: rotate(180deg);">
         <path fill="#111111" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,165.3C672,160,768,96,864,96C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" style=""></path>
     </svg>
     
     <!-- Main Content -->
-    <?php include('./template/main.php')?>
+    <?php require_once('./template/main.php')?>
 
     <!-- Footer Undangan -->
     <footer>
@@ -116,7 +116,7 @@
     </footer>
 
     <!-- Welcome Page -->
-    <?php include('./template/wellcome-page.php')?>
+    <?php require_once('./template/wellcome-page.php')?>
 
     <!-- Audio Button -->
     <button type="button" id="tombol-musik" style="display: none;" class="btn btn-light btn-sm rounded-circle btn-music" onclick="util.music(this)" data-status="true" data-url="./assets/music/beautiful-in-white.mp3">
@@ -124,7 +124,7 @@
     </button>
 
     <!-- Loading page -->
-    <?php include('./template/loading-page.php')?>
+    <?php require_once('./template/loading-page.php')?>
 
     <!-- Modal Foto Large -->
     <div class="modal fade" id="modal-image" tabindex="-1" aria-hidden="true">
