@@ -6,7 +6,6 @@ html {
 body {
     font-family: 'Josefin Sans', sans-serif !important;
     padding: 0 !important;
-    background-color: pink;
 }
 
 .font-esthetic {
@@ -19,20 +18,15 @@ body {
     font-weight: 400;
     font-style: normal;
     color: deeppink !important;
-  }
-  .protest-guerrilla-regular {
-    font-family: "Protest Guerrilla", sans-serif;
-    font-weight: 400;
-    color: deeppink !important;
-    font-style: normal;
-  }
-  .protest-guerrilla-regular {
-    font-family: "Protest Guerrilla", sans-serif;
-    font-weight: 400;
-    color: deeppink !important;
-    font-style: normal;
-  }
-  
+}
+.protest-guerrilla-regular {
+font-family: "Protest Guerrilla", sans-serif;
+font-weight: 400;
+color: deeppink !important;
+font-style: normal;
+}
+
+
 
 .font-arabic {
     font-family: 'Noto Naskh Arabic', serif !important;
@@ -141,8 +135,8 @@ body {
     /* background-color: #111111 !important; */
     background-image: url(/assets/images/bg.jpg);
 
-    margin-top: -0.5rem;
-    margin-bottom: -0.5rem;
+    /* margin-top: -0.5rem;
+    margin-bottom: -0.5rem; */
 }
 
 footer {
