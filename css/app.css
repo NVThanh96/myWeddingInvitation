@@ -139,9 +139,6 @@ body {
 .dark-section {
     /* background-color: #111111 !important; */
     background-image: url(/assets/images/bg.jpg);
-
-    margin-top: -0.5rem;
-    margin-bottom: -0.5rem;
 }
 
 footer {
