@@ -22,7 +22,7 @@
         <li class="nav-item">
             <a class="nav-link" href="#galeri">
                 <i class="fa-solid fa-images"></i>
-                <span class="d-block" style="font-size: 0.7rem;">Galeri</span>
+                <span class="d-block" style="font-size: 0.7rem;">Ảnh</span>
             </a>
         </li>
         <li class="nav-item">
