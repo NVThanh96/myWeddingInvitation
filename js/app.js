@@ -124,9 +124,22 @@ const util = (() => {
             let distance = Math.abs(countDownDate - (new Date()).getTime());
 
             document.getElementById('day').innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
-            document.getElementById('time').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            document.getElementById('hour').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             document.getElementById('minute').innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             document.getElementById('second').innerText = Math.floor((distance % (1000 * 60)) / 1000);
+        }, 1000);
+    };
+
+    const timer1 = () => {
+        let countDownDate = (new Date(document.getElementById('count-date1').getAttribute('data-count1').replace(' ', 'T'))).getTime();
+
+        setInterval(() => {
+            let distance = Math.abs(countDownDate - (new Date()).getTime());
+
+            document.getElementById('day1').innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
+            document.getElementById('hour1').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            document.getElementById('minute1').innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            document.getElementById('second1').innerText = Math.floor((distance % (1000 * 60)) / 1000);
         }, 1000);
     };
 
@@ -229,6 +242,7 @@ const util = (() => {
 
         opacity('welcome');
         document.getElementById('tombol-musik').style.display = 'block';
+        timer1();
         timer();
         countTime();
 

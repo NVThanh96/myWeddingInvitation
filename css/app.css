@@ -56,7 +56,14 @@ body {
     color: deeppink !important;
     font-style: normal;
   }
-
+.container{
+    --bs-gutter-x: 0;
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
 .img-crop {
     width: 14rem;
     height: 14rem;
