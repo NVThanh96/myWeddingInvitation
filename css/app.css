@@ -49,6 +49,14 @@ body {
     color: black !important;
 }
 
+  .dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: deeppink !important;
+    font-style: normal;
+  }
+
 .img-crop {
     width: 14rem;
     height: 14rem;
